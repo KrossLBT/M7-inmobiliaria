@@ -1,0 +1,3702 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2024-05-30T23:09:22.225Z",
+            "user": 1,
+            "content_type": 6,
+            "object_id": "2",
+            "object_repr": "nombre arrendador apellido arrendador",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 4,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 4,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 4,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 4,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 5,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 5,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 5,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 5,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 6,
+            "codename": "add_usuario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 6,
+            "codename": "change_usuario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 6,
+            "codename": "delete_usuario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 6,
+            "codename": "view_usuario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add comuna",
+            "content_type": 7,
+            "codename": "add_comuna"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change comuna",
+            "content_type": 7,
+            "codename": "change_comuna"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete comuna",
+            "content_type": 7,
+            "codename": "delete_comuna"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view comuna",
+            "content_type": 7,
+            "codename": "view_comuna"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add inmueble",
+            "content_type": 8,
+            "codename": "add_inmueble"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change inmueble",
+            "content_type": 8,
+            "codename": "change_inmueble"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete inmueble",
+            "content_type": 8,
+            "codename": "delete_inmueble"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view inmueble",
+            "content_type": 8,
+            "codename": "view_inmueble"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add region",
+            "content_type": 9,
+            "codename": "add_region"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change region",
+            "content_type": 9,
+            "codename": "change_region"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete region",
+            "content_type": 9,
+            "codename": "delete_region"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view region",
+            "content_type": 9,
+            "codename": "view_region"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add solicitud arriendo",
+            "content_type": 10,
+            "codename": "add_solicitudarriendo"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change solicitud arriendo",
+            "content_type": 10,
+            "codename": "change_solicitudarriendo"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete solicitud arriendo",
+            "content_type": 10,
+            "codename": "delete_solicitudarriendo"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view solicitud arriendo",
+            "content_type": 10,
+            "codename": "view_solicitudarriendo"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "web",
+            "model": "usuario"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "web",
+            "model": "comuna"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "web",
+            "model": "inmueble"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "web",
+            "model": "region"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "web",
+            "model": "solicitudarriendo"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "fpfzme898pmfme6hej67n8cvv622ple3",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pApQkGX7j0DmYEZqRpISrsy3l2bdKHb_977LxVxXUpcO89xyuqsBnX43QjTg-sG8h3rrenU6jJPpDdF77Tra8v8vOzu30HBXr619UlsQDGDcQQBjpYCOEBE51DIcmLDI5F3CJxoPAlJtiCeJXEOWb0_93I5cg:1sCos3:nU5kwtbJxD2yhsV2MObCSg7vm9G-YaH4jQi_fZrv9eo",
+            "expire_date": "2024-06-13T23:07:43.791Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "hvfqmglnbeqnzad04wiroznzgtxoyd62",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAUBf-FtSG9FAy4dO83EO4DqRpISrtq_Hdt0oVuz8ycTcW0LiWuXeY4sbooq06_GyZ6St0BP1K9N02tLvOEelf0Qbu-NZbX9XD_Dkrq5VujAcEhD3ZEx46CyYasJQJDLDxaNwIE8Vn4HDgnDN4nRArE2QFbUO8PBH85Gw:1sEf7O:_7AcMqThJIG0eNs0EJSgu2tXHp_07Lex4rG8JxuWdUw",
+            "expire_date": "2024-06-19T01:07:10.120Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "raliihn0rdq9zztt7v5d4h494b3chq81",
+        "fields": {
+            "session_data": "e30:1sEdgn:-oMC0KpIzWcd9QG0XJjIgrmZXmx4Vbx_xjLbX4RljFk",
+            "expire_date": "2024-06-18T23:35:37.748Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "slj75v9119zrnruiupvr27yv70f2hy2f",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBCoYBL956BzDCMVA0kpV0Z765NutDtf-_9l4iwrSVuPS9xJnEWWpx-N4T0yHUHdId6azK1ui4zyl2RB-3y2ig_L4f7d1Cgl2_NmNggaVIDWEBHRqsBjWeGDOOEjtmGbJVz5J02HIhHO1EIYEcffBDvDxb9OII:1sDsC0:B7GAera5zJGFqU2qX_xvguZqP5QaoyLThutZKtcqYT8",
+            "expire_date": "2024-06-16T20:52:40.788Z"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 1,
+        "fields": {
+            "nombre": "valparaiso"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 2,
+        "fields": {
+            "nombre": "Tarapacá"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 3,
+        "fields": {
+            "nombre": "Antofagasta"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 4,
+        "fields": {
+            "nombre": "Atacama"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 5,
+        "fields": {
+            "nombre": "Coquimbo"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 6,
+        "fields": {
+            "nombre": "Valparaíso"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 7,
+        "fields": {
+            "nombre": "Metropolitana de Santiago"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 8,
+        "fields": {
+            "nombre": "Libertador Gral. Bernardo O’Higgins"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 9,
+        "fields": {
+            "nombre": "Maule"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 10,
+        "fields": {
+            "nombre": "Ñuble"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 11,
+        "fields": {
+            "nombre": "Biobío"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 12,
+        "fields": {
+            "nombre": "Araucanía"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 13,
+        "fields": {
+            "nombre": "Los Ríos"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 14,
+        "fields": {
+            "nombre": "Los Lagos"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 15,
+        "fields": {
+            "nombre": "Aisén del Gral. Carlos Ibáñez del Campo"
+        }
+    },
+    {
+        "model": "web.region",
+        "pk": 16,
+        "fields": {
+            "nombre": "Magallanes y de la Antártica Chilena"
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 1,
+        "fields": {
+            "nombre": "valparaiso",
+            "region": 1
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 2,
+        "fields": {
+            "nombre": "Camarones",
+            "region": 1
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 3,
+        "fields": {
+            "nombre": "General Lagos",
+            "region": 1
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 4,
+        "fields": {
+            "nombre": "Putre",
+            "region": 1
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 5,
+        "fields": {
+            "nombre": "Alto Hospicio",
+            "region": 2
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 6,
+        "fields": {
+            "nombre": "Camiña",
+            "region": 2
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 7,
+        "fields": {
+            "nombre": "Colchane",
+            "region": 2
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 8,
+        "fields": {
+            "nombre": "Huara",
+            "region": 2
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 9,
+        "fields": {
+            "nombre": "Iquique",
+            "region": 2
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 10,
+        "fields": {
+            "nombre": "Pica",
+            "region": 2
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 11,
+        "fields": {
+            "nombre": "Pozo Almonte",
+            "region": 2
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 12,
+        "fields": {
+            "nombre": "Antofagasta",
+            "region": 3
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 13,
+        "fields": {
+            "nombre": "Calama",
+            "region": 3
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 14,
+        "fields": {
+            "nombre": "María Elena",
+            "region": 3
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 15,
+        "fields": {
+            "nombre": "Mejillones",
+            "region": 3
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 16,
+        "fields": {
+            "nombre": "Ollagüe",
+            "region": 3
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 17,
+        "fields": {
+            "nombre": "San Pedro de Atacama",
+            "region": 3
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 18,
+        "fields": {
+            "nombre": "Sierra Gorda",
+            "region": 3
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 19,
+        "fields": {
+            "nombre": "Taltal",
+            "region": 3
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 20,
+        "fields": {
+            "nombre": "Tocopilla",
+            "region": 3
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 21,
+        "fields": {
+            "nombre": "Alto del Carmen",
+            "region": 4
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 22,
+        "fields": {
+            "nombre": "Caldera",
+            "region": 4
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 23,
+        "fields": {
+            "nombre": "Chañaral",
+            "region": 4
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 24,
+        "fields": {
+            "nombre": "Copiapó",
+            "region": 4
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 25,
+        "fields": {
+            "nombre": "Diego de Almagro",
+            "region": 4
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 26,
+        "fields": {
+            "nombre": "Freirina",
+            "region": 4
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 27,
+        "fields": {
+            "nombre": "Huasco",
+            "region": 4
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 28,
+        "fields": {
+            "nombre": "Tierra Amarilla",
+            "region": 4
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 29,
+        "fields": {
+            "nombre": "Vallenar",
+            "region": 4
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 30,
+        "fields": {
+            "nombre": "Andacollo",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 31,
+        "fields": {
+            "nombre": "Canela",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 32,
+        "fields": {
+            "nombre": "Combarbalá",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 33,
+        "fields": {
+            "nombre": "Coquimbo",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 34,
+        "fields": {
+            "nombre": "Illapel",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 35,
+        "fields": {
+            "nombre": "La Higuera",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 36,
+        "fields": {
+            "nombre": "La Serena",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 37,
+        "fields": {
+            "nombre": "Los Vilos",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 38,
+        "fields": {
+            "nombre": "Monte Patria",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 39,
+        "fields": {
+            "nombre": "Ovalle",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 40,
+        "fields": {
+            "nombre": "Paiguano",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 41,
+        "fields": {
+            "nombre": "Punitaqui",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 42,
+        "fields": {
+            "nombre": "Río Hurtado",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 43,
+        "fields": {
+            "nombre": "Salamanca",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 44,
+        "fields": {
+            "nombre": "Vicuña",
+            "region": 5
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 45,
+        "fields": {
+            "nombre": "Algarrobo",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 46,
+        "fields": {
+            "nombre": "Cabildo",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 47,
+        "fields": {
+            "nombre": "Calera",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 48,
+        "fields": {
+            "nombre": "Calle Larga",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 49,
+        "fields": {
+            "nombre": "Cartagena",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 50,
+        "fields": {
+            "nombre": "Casablanca",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 51,
+        "fields": {
+            "nombre": "Catemu",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 52,
+        "fields": {
+            "nombre": "Concón",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 53,
+        "fields": {
+            "nombre": "El Quisco",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 54,
+        "fields": {
+            "nombre": "El Tabo",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 55,
+        "fields": {
+            "nombre": "Hijuelas",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 56,
+        "fields": {
+            "nombre": "Isla de Pascua",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 57,
+        "fields": {
+            "nombre": "Juan Fernández",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 58,
+        "fields": {
+            "nombre": "La Cruz",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 59,
+        "fields": {
+            "nombre": "La Ligua",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 60,
+        "fields": {
+            "nombre": "Limache",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 61,
+        "fields": {
+            "nombre": "Llaillay",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 62,
+        "fields": {
+            "nombre": "Los Andes",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 63,
+        "fields": {
+            "nombre": "Nogales",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 64,
+        "fields": {
+            "nombre": "Olmué",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 65,
+        "fields": {
+            "nombre": "Panquehue",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 66,
+        "fields": {
+            "nombre": "Papudo",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 67,
+        "fields": {
+            "nombre": "Petorca",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 68,
+        "fields": {
+            "nombre": "Puchuncaví",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 69,
+        "fields": {
+            "nombre": "Putaendo",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 70,
+        "fields": {
+            "nombre": "Quillota",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 71,
+        "fields": {
+            "nombre": "Quilpué",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 72,
+        "fields": {
+            "nombre": "Quintero",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 73,
+        "fields": {
+            "nombre": "Rinconada",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 74,
+        "fields": {
+            "nombre": "San Antonio",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 75,
+        "fields": {
+            "nombre": "San Esteban",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 76,
+        "fields": {
+            "nombre": "San Felipe",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 77,
+        "fields": {
+            "nombre": "Santa María",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 78,
+        "fields": {
+            "nombre": "Santo Domingo",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 79,
+        "fields": {
+            "nombre": "Valparaíso",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 80,
+        "fields": {
+            "nombre": "Villa Alemana",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 81,
+        "fields": {
+            "nombre": "Viña del Mar",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 82,
+        "fields": {
+            "nombre": "Zapallar",
+            "region": 6
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 83,
+        "fields": {
+            "nombre": "Alhué",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 84,
+        "fields": {
+            "nombre": "Buin",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 85,
+        "fields": {
+            "nombre": "Calera de Tango",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 86,
+        "fields": {
+            "nombre": "Cerrillos",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 87,
+        "fields": {
+            "nombre": "Cerro Navia",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 88,
+        "fields": {
+            "nombre": "Colina",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 89,
+        "fields": {
+            "nombre": "Conchalí",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 90,
+        "fields": {
+            "nombre": "Curacaví",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 91,
+        "fields": {
+            "nombre": "El Bosque",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 92,
+        "fields": {
+            "nombre": "El Monte",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 93,
+        "fields": {
+            "nombre": "Estación Central",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 94,
+        "fields": {
+            "nombre": "Huechuraba",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 95,
+        "fields": {
+            "nombre": "Independencia",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 96,
+        "fields": {
+            "nombre": "Isla de Maipo",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 97,
+        "fields": {
+            "nombre": "La Cisterna",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 98,
+        "fields": {
+            "nombre": "La Florida",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 99,
+        "fields": {
+            "nombre": "La Granja",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 100,
+        "fields": {
+            "nombre": "La Pintana",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 101,
+        "fields": {
+            "nombre": "La Reina",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 102,
+        "fields": {
+            "nombre": "Lampa",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 103,
+        "fields": {
+            "nombre": "Las Condes",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 104,
+        "fields": {
+            "nombre": "Lo Barnechea",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 105,
+        "fields": {
+            "nombre": "Lo Espejo",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 106,
+        "fields": {
+            "nombre": "Lo Prado",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 107,
+        "fields": {
+            "nombre": "Macul",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 108,
+        "fields": {
+            "nombre": "Maipú",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 109,
+        "fields": {
+            "nombre": "María Pinto",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 110,
+        "fields": {
+            "nombre": "Melipilla",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 111,
+        "fields": {
+            "nombre": "Ñuñoa",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 112,
+        "fields": {
+            "nombre": "Padre Hurtado",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 113,
+        "fields": {
+            "nombre": "Paine",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 114,
+        "fields": {
+            "nombre": "Pedro Aguirre Cerda",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 115,
+        "fields": {
+            "nombre": "Peñaflor",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 116,
+        "fields": {
+            "nombre": "Peñalolén",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 117,
+        "fields": {
+            "nombre": "Pirque",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 118,
+        "fields": {
+            "nombre": "Providencia",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 119,
+        "fields": {
+            "nombre": "Pudahuel",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 120,
+        "fields": {
+            "nombre": "Puente Alto",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 121,
+        "fields": {
+            "nombre": "Quilicura",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 122,
+        "fields": {
+            "nombre": "Quinta Normal",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 123,
+        "fields": {
+            "nombre": "Recoleta",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 124,
+        "fields": {
+            "nombre": "Renca",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 125,
+        "fields": {
+            "nombre": "San Bernardo",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 126,
+        "fields": {
+            "nombre": "San Joaquín",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 127,
+        "fields": {
+            "nombre": "San José de Maipo",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 128,
+        "fields": {
+            "nombre": "San Miguel",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 129,
+        "fields": {
+            "nombre": "San Pedro",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 130,
+        "fields": {
+            "nombre": "San Ramón",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 131,
+        "fields": {
+            "nombre": "Santiago",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 132,
+        "fields": {
+            "nombre": "Talagante",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 133,
+        "fields": {
+            "nombre": "Tiltil",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 134,
+        "fields": {
+            "nombre": "Vitacura",
+            "region": 7
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 135,
+        "fields": {
+            "nombre": "Chimbarongo",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 136,
+        "fields": {
+            "nombre": "Chépica",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 137,
+        "fields": {
+            "nombre": "Codegua",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 138,
+        "fields": {
+            "nombre": "Coinco",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 139,
+        "fields": {
+            "nombre": "Coltauco",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 140,
+        "fields": {
+            "nombre": "Doñihue",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 141,
+        "fields": {
+            "nombre": "Graneros",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 142,
+        "fields": {
+            "nombre": "La Estrella",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 143,
+        "fields": {
+            "nombre": "Las Cabras",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 144,
+        "fields": {
+            "nombre": "Litueche",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 145,
+        "fields": {
+            "nombre": "Lolol",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 146,
+        "fields": {
+            "nombre": "Machalí",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 147,
+        "fields": {
+            "nombre": "Malloa",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 148,
+        "fields": {
+            "nombre": "Marchihue",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 149,
+        "fields": {
+            "nombre": "Nancagua",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 150,
+        "fields": {
+            "nombre": "Navidad",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 151,
+        "fields": {
+            "nombre": "Olivar",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 152,
+        "fields": {
+            "nombre": "Palmilla",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 153,
+        "fields": {
+            "nombre": "Paredones",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 154,
+        "fields": {
+            "nombre": "Peralillo",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 155,
+        "fields": {
+            "nombre": "Peumo",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 156,
+        "fields": {
+            "nombre": "Pichidegua",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 157,
+        "fields": {
+            "nombre": "Pichilemu",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 158,
+        "fields": {
+            "nombre": "Placilla",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 159,
+        "fields": {
+            "nombre": "Pumanque",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 160,
+        "fields": {
+            "nombre": "Quinta de Tilcoco",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 161,
+        "fields": {
+            "nombre": "Rancagua",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 162,
+        "fields": {
+            "nombre": "Rengo",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 163,
+        "fields": {
+            "nombre": "Requínoa",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 164,
+        "fields": {
+            "nombre": "San Fernando",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 165,
+        "fields": {
+            "nombre": "San Francisco de Mostazal",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 166,
+        "fields": {
+            "nombre": "San Vicente de Tagua Tagua",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 167,
+        "fields": {
+            "nombre": "Santa Cruz",
+            "region": 8
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 168,
+        "fields": {
+            "nombre": "Cauquenes",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 169,
+        "fields": {
+            "nombre": "Chanco",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 170,
+        "fields": {
+            "nombre": "Colbún",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 171,
+        "fields": {
+            "nombre": "Constitución",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 172,
+        "fields": {
+            "nombre": "Curepto",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 173,
+        "fields": {
+            "nombre": "Curicó",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 174,
+        "fields": {
+            "nombre": "Empedrado",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 175,
+        "fields": {
+            "nombre": "Hualañé",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 176,
+        "fields": {
+            "nombre": "Licantén",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 177,
+        "fields": {
+            "nombre": "Linares",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 178,
+        "fields": {
+            "nombre": "Longaví",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 179,
+        "fields": {
+            "nombre": "Maule",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 180,
+        "fields": {
+            "nombre": "Molina",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 181,
+        "fields": {
+            "nombre": "Parral",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 182,
+        "fields": {
+            "nombre": "Pelarco",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 183,
+        "fields": {
+            "nombre": "Pelluhue",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 184,
+        "fields": {
+            "nombre": "Pencahue",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 185,
+        "fields": {
+            "nombre": "Rauco",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 186,
+        "fields": {
+            "nombre": "Retiro",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 187,
+        "fields": {
+            "nombre": "Romeral",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 188,
+        "fields": {
+            "nombre": "Río Claro",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 189,
+        "fields": {
+            "nombre": "Sagrada Familia",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 190,
+        "fields": {
+            "nombre": "San Clemente",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 191,
+        "fields": {
+            "nombre": "San Javier de Loncomilla",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 192,
+        "fields": {
+            "nombre": "San Rafael",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 193,
+        "fields": {
+            "nombre": "Talca",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 194,
+        "fields": {
+            "nombre": "Teno",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 195,
+        "fields": {
+            "nombre": "Vichuquén",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 196,
+        "fields": {
+            "nombre": "Villa Alegre",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 197,
+        "fields": {
+            "nombre": "Yerbas Buenas",
+            "region": 9
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 198,
+        "fields": {
+            "nombre": "Bulnes",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 199,
+        "fields": {
+            "nombre": "Chillán Viejo",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 200,
+        "fields": {
+            "nombre": "Chillán",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 201,
+        "fields": {
+            "nombre": "Cobquecura",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 202,
+        "fields": {
+            "nombre": "Coelemu",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 203,
+        "fields": {
+            "nombre": "Coihueco",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 204,
+        "fields": {
+            "nombre": "El Carmen",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 205,
+        "fields": {
+            "nombre": "Ninhue",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 206,
+        "fields": {
+            "nombre": "Ñiquén",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 207,
+        "fields": {
+            "nombre": "Pemuco",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 208,
+        "fields": {
+            "nombre": "Pinto",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 209,
+        "fields": {
+            "nombre": "Portezuelo",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 210,
+        "fields": {
+            "nombre": "Quillón",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 211,
+        "fields": {
+            "nombre": "Quirihue",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 212,
+        "fields": {
+            "nombre": "Ránquil",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 213,
+        "fields": {
+            "nombre": "San Carlos",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 214,
+        "fields": {
+            "nombre": "San Fabián",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 215,
+        "fields": {
+            "nombre": "San Ignacio",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 216,
+        "fields": {
+            "nombre": "San Nicolás",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 217,
+        "fields": {
+            "nombre": "Treguaco",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 218,
+        "fields": {
+            "nombre": "Yungay",
+            "region": 10
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 219,
+        "fields": {
+            "nombre": "Alto Biobío",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 220,
+        "fields": {
+            "nombre": "Antuco",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 221,
+        "fields": {
+            "nombre": "Arauco",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 222,
+        "fields": {
+            "nombre": "Cabrero",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 223,
+        "fields": {
+            "nombre": "Cañete",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 224,
+        "fields": {
+            "nombre": "Chiguayante",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 225,
+        "fields": {
+            "nombre": "Concepción",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 226,
+        "fields": {
+            "nombre": "Contulmo",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 227,
+        "fields": {
+            "nombre": "Coronel",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 228,
+        "fields": {
+            "nombre": "Curanilahue",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 229,
+        "fields": {
+            "nombre": "Florida",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 230,
+        "fields": {
+            "nombre": "Hualpén",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 231,
+        "fields": {
+            "nombre": "Hualqui",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 232,
+        "fields": {
+            "nombre": "Laja",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 233,
+        "fields": {
+            "nombre": "Lebu",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 234,
+        "fields": {
+            "nombre": "Los Álamos",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 235,
+        "fields": {
+            "nombre": "Los Ángeles",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 236,
+        "fields": {
+            "nombre": "Lota",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 237,
+        "fields": {
+            "nombre": "Mulchén",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 238,
+        "fields": {
+            "nombre": "Nacimiento",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 239,
+        "fields": {
+            "nombre": "Negrete",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 240,
+        "fields": {
+            "nombre": "Penco",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 241,
+        "fields": {
+            "nombre": "Quilaco",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 242,
+        "fields": {
+            "nombre": "Quilleco",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 243,
+        "fields": {
+            "nombre": "San Pedro de la Paz",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 244,
+        "fields": {
+            "nombre": "San Rosendo",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 245,
+        "fields": {
+            "nombre": "Santa Bárbara",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 246,
+        "fields": {
+            "nombre": "Santa Juana",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 247,
+        "fields": {
+            "nombre": "Talcahuano",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 248,
+        "fields": {
+            "nombre": "Tirúa",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 249,
+        "fields": {
+            "nombre": "Tomé",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 250,
+        "fields": {
+            "nombre": "Tucapel",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 251,
+        "fields": {
+            "nombre": "Yumbel",
+            "region": 11
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 252,
+        "fields": {
+            "nombre": "Angol",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 253,
+        "fields": {
+            "nombre": "Carahue",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 254,
+        "fields": {
+            "nombre": "Cholchol",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 255,
+        "fields": {
+            "nombre": "Collipulli",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 256,
+        "fields": {
+            "nombre": "Cunco",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 257,
+        "fields": {
+            "nombre": "Curacautín",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 258,
+        "fields": {
+            "nombre": "Curarrehue",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 259,
+        "fields": {
+            "nombre": "Ercilla",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 260,
+        "fields": {
+            "nombre": "Freire",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 261,
+        "fields": {
+            "nombre": "Galvarino",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 262,
+        "fields": {
+            "nombre": "Gorbea",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 263,
+        "fields": {
+            "nombre": "Lautaro",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 264,
+        "fields": {
+            "nombre": "Loncoche",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 265,
+        "fields": {
+            "nombre": "Lonquimay",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 266,
+        "fields": {
+            "nombre": "Los Sauces",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 267,
+        "fields": {
+            "nombre": "Lumaco",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 268,
+        "fields": {
+            "nombre": "Melipeuco",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 269,
+        "fields": {
+            "nombre": "Nueva Imperial",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 270,
+        "fields": {
+            "nombre": "Padre las Casas",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 271,
+        "fields": {
+            "nombre": "Perquenco",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 272,
+        "fields": {
+            "nombre": "Pitrufquén",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 273,
+        "fields": {
+            "nombre": "Pucón",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 274,
+        "fields": {
+            "nombre": "Purén",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 275,
+        "fields": {
+            "nombre": "Renaico",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 276,
+        "fields": {
+            "nombre": "Saavedra",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 277,
+        "fields": {
+            "nombre": "Temuco",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 278,
+        "fields": {
+            "nombre": "Teodoro Schmidt",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 279,
+        "fields": {
+            "nombre": "Toltén",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 280,
+        "fields": {
+            "nombre": "Traiguén",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 281,
+        "fields": {
+            "nombre": "Victoria",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 282,
+        "fields": {
+            "nombre": "Vilcún",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 283,
+        "fields": {
+            "nombre": "Villarrica",
+            "region": 12
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 284,
+        "fields": {
+            "nombre": "Corral",
+            "region": 13
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 285,
+        "fields": {
+            "nombre": "Futrono",
+            "region": 13
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 286,
+        "fields": {
+            "nombre": "La Unión",
+            "region": 13
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 287,
+        "fields": {
+            "nombre": "Lago Ranco",
+            "region": 13
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 288,
+        "fields": {
+            "nombre": "Lanco",
+            "region": 13
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 289,
+        "fields": {
+            "nombre": "Los Lagos",
+            "region": 13
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 290,
+        "fields": {
+            "nombre": "Mariquina",
+            "region": 13
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 291,
+        "fields": {
+            "nombre": "Máfil",
+            "region": 13
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 292,
+        "fields": {
+            "nombre": "Paillaco",
+            "region": 13
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 293,
+        "fields": {
+            "nombre": "Panguipulli",
+            "region": 13
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 294,
+        "fields": {
+            "nombre": "Río Bueno",
+            "region": 13
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 295,
+        "fields": {
+            "nombre": "Valdivia",
+            "region": 13
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 296,
+        "fields": {
+            "nombre": "Ancud",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 297,
+        "fields": {
+            "nombre": "Calbuco",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 298,
+        "fields": {
+            "nombre": "Castro",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 299,
+        "fields": {
+            "nombre": "Chaitén",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 300,
+        "fields": {
+            "nombre": "Chonchi",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 301,
+        "fields": {
+            "nombre": "Cochamó",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 302,
+        "fields": {
+            "nombre": "Curaco de Vélez",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 303,
+        "fields": {
+            "nombre": "Dalcahue",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 304,
+        "fields": {
+            "nombre": "Fresia",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 305,
+        "fields": {
+            "nombre": "Frutillar",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 306,
+        "fields": {
+            "nombre": "Futaleufú",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 307,
+        "fields": {
+            "nombre": "Hualaihué",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 308,
+        "fields": {
+            "nombre": "Llanquihue",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 309,
+        "fields": {
+            "nombre": "Los Muermos",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 310,
+        "fields": {
+            "nombre": "Maullín",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 311,
+        "fields": {
+            "nombre": "Osorno",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 312,
+        "fields": {
+            "nombre": "Palena",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 313,
+        "fields": {
+            "nombre": "Puerto Montt",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 314,
+        "fields": {
+            "nombre": "Puerto Octay",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 315,
+        "fields": {
+            "nombre": "Puerto Varas",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 316,
+        "fields": {
+            "nombre": "Puqueldón",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 317,
+        "fields": {
+            "nombre": "Purranque",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 318,
+        "fields": {
+            "nombre": "Puyehue",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 319,
+        "fields": {
+            "nombre": "Queilén",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 320,
+        "fields": {
+            "nombre": "Quellón",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 321,
+        "fields": {
+            "nombre": "Quemchi",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 322,
+        "fields": {
+            "nombre": "Quinchao",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 323,
+        "fields": {
+            "nombre": "Río Negro",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 324,
+        "fields": {
+            "nombre": "San Juan de la Costa",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 325,
+        "fields": {
+            "nombre": "San Pablo",
+            "region": 14
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 326,
+        "fields": {
+            "nombre": "Aisén",
+            "region": 15
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 327,
+        "fields": {
+            "nombre": "Chile Chico",
+            "region": 15
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 328,
+        "fields": {
+            "nombre": "Cisnes",
+            "region": 15
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 329,
+        "fields": {
+            "nombre": "Cochrane",
+            "region": 15
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 330,
+        "fields": {
+            "nombre": "Coyhaique",
+            "region": 15
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 331,
+        "fields": {
+            "nombre": "Guaitecas",
+            "region": 15
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 332,
+        "fields": {
+            "nombre": "Lago Verde",
+            "region": 15
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 333,
+        "fields": {
+            "nombre": "O’Higgins",
+            "region": 15
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 334,
+        "fields": {
+            "nombre": "Río Ibáñez",
+            "region": 15
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 335,
+        "fields": {
+            "nombre": "Tortel",
+            "region": 15
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 336,
+        "fields": {
+            "nombre": "Antártica",
+            "region": 16
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 337,
+        "fields": {
+            "nombre": "Cabo de Hornos (Ex Navarino)",
+            "region": 16
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 338,
+        "fields": {
+            "nombre": "Laguna Blanca",
+            "region": 16
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 339,
+        "fields": {
+            "nombre": "Natales",
+            "region": 16
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 340,
+        "fields": {
+            "nombre": "Porvenir",
+            "region": 16
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 341,
+        "fields": {
+            "nombre": "Primavera",
+            "region": 16
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 342,
+        "fields": {
+            "nombre": "Punta Arenas",
+            "region": 16
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 343,
+        "fields": {
+            "nombre": "Río Verde",
+            "region": 16
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 344,
+        "fields": {
+            "nombre": "San Gregorio",
+            "region": 16
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 345,
+        "fields": {
+            "nombre": "Timaukel",
+            "region": 16
+        }
+    },
+    {
+        "model": "web.comuna",
+        "pk": 346,
+        "fields": {
+            "nombre": "Torres del Paine",
+            "region": 16
+        }
+    },
+    {
+        "model": "web.usuario",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$sNJpht1zRVJ0uISh4128Ya$a4QvYobAdHplZzGTRY2VSqnsVmC9Xv0KwAfsyDbWu6c=",
+            "last_login": "2024-06-05T18:17:24.580Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-05-24T01:43:40.073Z",
+            "nombres": "",
+            "apellidos": "",
+            "rut": "",
+            "direccion": "",
+            "telefono": "",
+            "tipo_usuario": "",
+            "correo_electronico": "correo@correo.cl",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web.usuario",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$Lpu8b06i5LMUoY2ub6jJxp$BuqqsiO9/acI2I6foXLnPwQQHhqrKWgMdxgsRCTfZP8=",
+            "last_login": "2024-06-05T18:20:01.334Z",
+            "is_superuser": false,
+            "username": "propietario",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-24T01:54:34Z",
+            "nombres": "Propietario 1",
+            "apellidos": "Apellido Prop 1",
+            "rut": "123456789",
+            "direccion": "calle arrendador",
+            "telefono": "12341234",
+            "tipo_usuario": "arrendador",
+            "correo_electronico": "propietario01@gmail.com",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web.usuario",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$irkbthtgKXNaoR7It2HBw3$RXPIfBB+qzPROQ0Kl11fjh7JEMXo/5Ce+1ErE6gtIGk=",
+            "last_login": "2024-06-05T21:47:08.276Z",
+            "is_superuser": false,
+            "username": "arrendatario001",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-05-24T01:54:34.144Z",
+            "nombres": "Arrendatario 1",
+            "apellidos": "Apellido Arrendatario 1",
+            "rut": "123456788",
+            "direccion": "calle arrendatario",
+            "telefono": "12341234",
+            "tipo_usuario": "arrendatario",
+            "correo_electronico": "arrendatario001@gmail.com",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web.usuario",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$OobXZxkyDa5bYEjtN7UkZr$Mpf7AiNgb5s85BniRz6VDTQgUsj8zejHnDXTnpQM6vs=",
+            "last_login": "2024-06-05T01:07:10.117Z",
+            "is_superuser": false,
+            "username": "arrendatario2",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-06-04T23:35:37.332Z",
+            "nombres": "Arrendatario 2",
+            "apellidos": "Apellido Arr 2",
+            "rut": "2222222-2",
+            "direccion": "sdf sf sd sddfsd fsdf sdf",
+            "telefono": "+56 1234 5678",
+            "tipo_usuario": "arrendatario",
+            "correo_electronico": "arrendatario2@correo.cl",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web.usuario",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$WPcv1ImQHt95kvJQCfSe97$gIGELXQJ6QveWWNOR/RnjOH+LGvryjVK9gemQu3OzEI=",
+            "last_login": "2024-06-05T21:44:58.745Z",
+            "is_superuser": false,
+            "username": "propietario2",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-06-05T18:05:36.991Z",
+            "nombres": "luis",
+            "apellidos": "bernales",
+            "rut": "12345678-9",
+            "direccion": "las heras 288",
+            "telefono": "374285659",
+            "tipo_usuario": "arrendador",
+            "correo_electronico": "luisbernales@live.cl",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web.inmueble",
+        "pk": 1,
+        "fields": {
+            "nombre": "casa1",
+            "direccion": "calle1",
+            "descripcion": "Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de",
+            "imagen": "single-property.jpg",
+            "precio": "1222222",
+            "comuna": 79,
+            "disponible": true,
+            "m2_construidos": "122.00",
+            "m2_terreno": "160.00",
+            "cantidad_estacionamientos": 2,
+            "cantidad_habitaciones": 3,
+            "cantidad_banos": 2,
+            "tipo_de_inmueble": "casa",
+            "propietario": 2
+        }
+    },
+    {
+        "model": "web.inmueble",
+        "pk": 2,
+        "fields": {
+            "nombre": "casa2",
+            "direccion": "calle1",
+            "descripcion": "casa2 a sjhdg asjkdgh asjkdgasj kdgasjkdga sjkdgashjdk",
+            "imagen": "single-property_juRersY.jpg",
+            "precio": "344444444",
+            "comuna": 79,
+            "disponible": true,
+            "m2_construidos": "122.00",
+            "m2_terreno": "433.50",
+            "cantidad_estacionamientos": 2,
+            "cantidad_habitaciones": 4,
+            "cantidad_banos": 2,
+            "tipo_de_inmueble": "casa",
+            "propietario": 2
+        }
+    },
+    {
+        "model": "web.inmueble",
+        "pk": 3,
+        "fields": {
+            "nombre": "casa3",
+            "direccion": "calle1",
+            "descripcion": "casa2",
+            "imagen": "single-property_4YIclrX.jpg",
+            "precio": "132312312",
+            "comuna": 79,
+            "disponible": true,
+            "m2_construidos": "122.00",
+            "m2_terreno": "333.00",
+            "cantidad_estacionamientos": 2,
+            "cantidad_habitaciones": 3,
+            "cantidad_banos": 2,
+            "tipo_de_inmueble": "casa",
+            "propietario": 2
+        }
+    },
+    {
+        "model": "web.inmueble",
+        "pk": 4,
+        "fields": {
+            "nombre": "casa4",
+            "direccion": "calle1",
+            "descripcion": "casa2asjhdgasjkdghasjkdgasjkdgasjkdgasjkdgashjdk",
+            "imagen": "single-property_FPbcNL0.jpg",
+            "precio": "555555",
+            "comuna": 79,
+            "disponible": true,
+            "m2_construidos": "34.00",
+            "m2_terreno": "43.00",
+            "cantidad_estacionamientos": 3,
+            "cantidad_habitaciones": 4,
+            "cantidad_banos": 3,
+            "tipo_de_inmueble": "casa",
+            "propietario": 2
+        }
+    },
+    {
+        "model": "web.inmueble",
+        "pk": 6,
+        "fields": {
+            "nombre": "parcela",
+            "direccion": "calle1",
+            "descripcion": "ultra waii",
+            "imagen": "single-property_9XeTltA.jpg",
+            "precio": "132313",
+            "comuna": 79,
+            "disponible": true,
+            "m2_construidos": "1233.00",
+            "m2_terreno": "5000.00",
+            "cantidad_estacionamientos": 2,
+            "cantidad_habitaciones": 2,
+            "cantidad_banos": 2,
+            "tipo_de_inmueble": "parcela",
+            "propietario": 2
+        }
+    },
+    {
+        "model": "web.inmueble",
+        "pk": 7,
+        "fields": {
+            "nombre": "Departamento 1",
+            "direccion": "Alberto Blest Gana 4185, dpto 203",
+            "descripcion": "seferf wef we wef we wegw ge weg we fe fwefg g",
+            "imagen": "Depto001.jpg",
+            "precio": "1000000",
+            "comuna": 295,
+            "disponible": true,
+            "m2_construidos": "160.00",
+            "m2_terreno": "180.00",
+            "cantidad_estacionamientos": 2,
+            "cantidad_habitaciones": 3,
+            "cantidad_banos": 3,
+            "tipo_de_inmueble": "departamento",
+            "propietario": 2
+        }
+    },
+    {
+        "model": "web.inmueble",
+        "pk": 8,
+        "fields": {
+            "nombre": "Departamento 2",
+            "direccion": "ads adwd asd asda dasd as",
+            "descripcion": "<asfdasdf saef eawfad sf sadf sdf",
+            "imagen": "Depto002.jpg",
+            "precio": "400000",
+            "comuna": 264,
+            "disponible": true,
+            "m2_construidos": "125.00",
+            "m2_terreno": "130.00",
+            "cantidad_estacionamientos": 1,
+            "cantidad_habitaciones": 2,
+            "cantidad_banos": 1,
+            "tipo_de_inmueble": "departamento",
+            "propietario": 2
+        }
+    },
+    {
+        "model": "web.inmueble",
+        "pk": 9,
+        "fields": {
+            "nombre": "Casa",
+            "direccion": "caupolican 120",
+            "descripcion": "dhfdsjfhasdf gddsfgdfg gsdggs gsg",
+            "imagen": "OIP_1.jpg",
+            "precio": "300000000",
+            "comuna": 114,
+            "disponible": false,
+            "m2_construidos": "120.00",
+            "m2_terreno": "5000.00",
+            "cantidad_estacionamientos": 3,
+            "cantidad_habitaciones": 4,
+            "cantidad_banos": 4,
+            "tipo_de_inmueble": "casa",
+            "propietario": 5
+        }
+    },
+    {
+        "model": "web.inmueble",
+        "pk": 10,
+        "fields": {
+            "nombre": "parcela",
+            "direccion": "bulnes 342",
+            "descripcion": "hasdhj  FHFSFJ",
+            "imagen": "parcela2.jpg",
+            "precio": "500000000",
+            "comuna": 308,
+            "disponible": true,
+            "m2_construidos": "200.00",
+            "m2_terreno": "10000.00",
+            "cantidad_estacionamientos": 3,
+            "cantidad_habitaciones": 5,
+            "cantidad_banos": 5,
+            "tipo_de_inmueble": "parcela",
+            "propietario": 5
+        }
+    },
+    {
+        "model": "web.solicitudarriendo",
+        "pk": 1,
+        "fields": {
+            "arrendatario": 3,
+            "inmueble": 2,
+            "mensaje": "asdasd ad asd asd asd asd asw",
+            "estado": "aceptado"
+        }
+    },
+    {
+        "model": "web.solicitudarriendo",
+        "pk": 2,
+        "fields": {
+            "arrendatario": 3,
+            "inmueble": 4,
+            "mensaje": "asdas asd asd asd asd a",
+            "estado": "aceptado"
+        }
+    },
+    {
+        "model": "web.solicitudarriendo",
+        "pk": 4,
+        "fields": {
+            "arrendatario": 3,
+            "inmueble": 9,
+            "mensaje": "kdsfhakj dhasdjkgh  dsgfg",
+            "estado": "aceptado"
+        }
+    }
+]
